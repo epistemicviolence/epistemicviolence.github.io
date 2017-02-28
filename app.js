@@ -3,7 +3,7 @@ function getRandom(min, max) {
 }
 
 var img = new Image();
-img.src = 'https://i.imgur.com/ECLJake.jpg';
+img.src = 'https://media.giphy.com/media/26tPbLsr9oE72erjG/giphy.gif';
 img.onload = function() {
   draw(this);
 };
