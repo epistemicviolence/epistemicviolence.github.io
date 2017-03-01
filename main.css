@@ -202,13 +202,14 @@ z-index:-1;
   }
 
 
-div.box {
+.box {
   background-color: #000000;
   opacity: 0.9;
   margin-top: 0 auto;
   height: 100%;
-  width: 50%;
+  width: 500px;
   margin: 0 auto;
   font-family: 'Varela', sans-serif;
   position: fixed;
+  text-align: center;
 }
