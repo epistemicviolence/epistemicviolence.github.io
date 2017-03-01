@@ -22,38 +22,13 @@
           <div class="collapse navbar-collapse navbar-menubuilder">
               <ul class="nav navbar-nav navbar-right">
                   <li><a href="/">Home</a></li>
-                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-cloud"></span> Soundcloud</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-play"></span> Youtube</a></li>
                   </li>
               </ul>
           </div>
       </div>
   </div>
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="//bootstrapdesigntools.com/assets/js/holder.js"></script>
-	<script>
-		(function(w,$){
-			var menu = $('#example-builder', parent.document.body).html(),
-				mtype = $('#mtype', parent.document.body).val(),
-				css = $('#tbstyles', parent.document).html();
-			
-			$('#menu-preview-styles').html(css);
-			$('#menu-preview').html(menu);
-
-			if(mtype == '') {
-				$('#menu-builder-navigation').removeClass('navbar-static-top');
-				$('#menu-preview').addClass('container');
-			} else {
-				$('#menu-builder-navigation').removeClass('navbar-static-top').addClass(mtype);
-			}
-
-			if(mtype == 'navbar-fixed-top')
-				$('body').css('padding-top', '70px');
-		})(window,jQuery);
-	</script>
 
 
     <div class="boxcontainer">
