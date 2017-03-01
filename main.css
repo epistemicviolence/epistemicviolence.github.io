@@ -191,7 +191,9 @@ z-index:-1;
   align-content: center;
   }
 
-  .mainposts
+  .wrapper {
+    color: white;
+  }
 
 
 div.box {
@@ -200,8 +202,8 @@ div.box {
   margin-top: 0%;
   width: 50%;
   height: 100%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
   font-family: 'Varela', sans-serif;
 
 }
