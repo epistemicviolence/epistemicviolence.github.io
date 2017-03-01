@@ -196,13 +196,11 @@ z-index:-1;
 
 div.box {
   background-color: #000000;
-  opacity: 0.8;
+  opacity: 0.9;
   margin-top: 0%;
-  width: 50%;
+  width: 60%;
   height: 100%;
   margin-left: 20%;
   margin-right: 20%;
   font-family: 'Varela', sans-serif;
-  position: fixed;
-
 }
