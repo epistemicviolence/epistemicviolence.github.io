@@ -1,37 +1,59 @@
 <head>
     <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
     <link href='main.css' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="app.js">
-    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
     <canvas id="background"></canvas>
-
-    <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-              <div class="glitch" data-text="VIOLENCE">EPISTEMIC</div>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse navbar-menubuilder">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/">Home</a>
-                    </li>
-                    <li><a href="#" target="_blank">Youtube</a>
-                    </li>
-                    <li><a href="#" target="_blank">Soundcloud</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</head>
-
-
 <body>
 
 
+
+  <div class="glitch" data-text="VIOLENCE">EPISTEMIC</div>
+
+  <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container-fluid">
+          <div class="navbar-header"><a class="navbar-brand" href="#"></a>
+            <div class="glitch" data-text="VIOLENCE">EPISTEMIC</div>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+              </button>
+          </div>
+          <div class="collapse navbar-collapse navbar-menubuilder">
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="//bootstrapdesigntools.com/assets/js/holder.js"></script>
+	<script>
+		(function(w,$){
+			var menu = $('#example-builder', parent.document.body).html(),
+				mtype = $('#mtype', parent.document.body).val(),
+				css = $('#tbstyles', parent.document).html();
+			
+			$('#menu-preview-styles').html(css);
+			$('#menu-preview').html(menu);
+
+			if(mtype == '') {
+				$('#menu-builder-navigation').removeClass('navbar-static-top');
+				$('#menu-preview').addClass('container');
+			} else {
+				$('#menu-builder-navigation').removeClass('navbar-static-top').addClass(mtype);
+			}
+
+			if(mtype == 'navbar-fixed-top')
+				$('body').css('padding-top', '70px');
+		})(window,jQuery);
+	</script>
 
 
     <div class="boxcontainer">
