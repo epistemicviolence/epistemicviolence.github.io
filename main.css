@@ -210,6 +210,6 @@ z-index:-1;
   width: 500px;
   margin: 0 auto;
   font-family: 'Varela', sans-serif;
-  position: fixed;
+  position: absolute;
   text-align: center;
 }
