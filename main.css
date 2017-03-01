@@ -207,8 +207,7 @@ z-index:-1;
   opacity: 0.9;
   margin-top: 0 auto;
   height: 100%;
-  width: 500px;
-  margin-left: 20%;
+  left: 50%
   font-family: 'Varela', sans-serif;
   position: absolute;
   text-align: center;
