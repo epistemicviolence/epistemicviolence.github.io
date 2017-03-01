@@ -193,8 +193,12 @@ z-index:-1;
   }
 
   .postcontainer {
-    color: white;
+    color: #FFFFFF;
     z-index: 500;
+  }
+
+  .wrapper {
+    color: #FFFFFF;
   }
 
 
