@@ -205,11 +205,10 @@ z-index:-1;
   .box
   {
     width : 30%;
-    height : auto;
+    height : 100%;
+    right: 50%
     overflow : auto ;
     background : #000000;
     position : absolute;
-    left : 33.6;
-    border-top : none;
     text-align : center;
   }
