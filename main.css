@@ -208,7 +208,7 @@ div.box {
   margin-top: auto;
   height: 100%;
   width: 50%;
-  margin: auto;
+  margin: 0 auto;
   font-family: 'Varela', sans-serif;
   position: absolute;
 }
