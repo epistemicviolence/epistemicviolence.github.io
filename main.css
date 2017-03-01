@@ -186,45 +186,22 @@ z-index:-1;
 
 #Text
 
-.boxcontainer {
+.postcontainer {
   position: fixed;
+  align-content: center;
   }
+
+  .mainposts
+
 
 div.box {
   background-color: #000000;
   opacity: 0.8;
   margin-top: 0%;
-  width: 500px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 50%;
+  height: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
   font-family: 'Varela', sans-serif;
 
 }
-div.content  {
-  font-weight: bold;
-  color: #FFFFFF;
-  padding: 5px;
-  text-align:center;
-  font-size: 50;
-}
-
-div.intro {
-  font-weight: bold;
-  color: #FFFFFF;
-  padding: 20px;
-  text-align:left;
-  font-size: 15;
-}
-
-div.box2 {
-  background-color: #000000;
-  opacity: 0.8;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  width: 500px;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Varela', sans-serif;
-  position: relative;
